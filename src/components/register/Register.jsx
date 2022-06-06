@@ -28,7 +28,7 @@ export default function Register() {
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png"
                         alt=""
                     />
-                    <button className="loginButton">Sign In</button>
+                    <button className="loginButtons">Sign In</button>
                 </div>
             </div>
             <div className="container">
@@ -48,16 +48,16 @@ export default function Register() {
                 ) : (
                     <form className="input">
                         <input type="password" placeholder="password" ref={passwordRef} />
-                        
-                            
-                                
-                                
-                                <button className="registerButton" onClick={handleFinish}>
-                                    start
-                                </button>
-                          
-                                
-                            
+
+
+
+
+                        <button className="registerButton" onClick={handleFinish}>
+                            start
+                        </button>
+
+
+
                     </form>
                 )
 
